@@ -358,6 +358,11 @@ export default function SectorTable({
         },
       },
       {
+        accessorKey: 'peRatio',
+        header: 'PE Ratio',
+        
+      },
+      {
         accessorKey: 'gainLoss',
         header: 'Gain/Loss',
         cell: (i) => {
